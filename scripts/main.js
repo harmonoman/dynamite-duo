@@ -13,7 +13,7 @@ const theWholeEnchilada = `
 
     <h1>Villains</h1>
     ${villainListHTML}
-`
+`;
 // debugger
 
 /* 
@@ -21,3 +21,5 @@ const theWholeEnchilada = `
 */
 const theExistingMainElement = document.querySelector("#container")
 // debugger
+
+theExistingMainElement.innerHTML = theWholeEnchilada
